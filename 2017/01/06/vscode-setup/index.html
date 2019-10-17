@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>VS-Code-搭建高效前端开发环境 | 笑极</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="目前在前端开发中主要是使用VS Code。VS Code是来自微软的编辑器，基于Github的Electron开发，非常简洁快速，内置Debug，Github GUI以及终端功能，十分强大。现在支持的扩展和主题已经很多，借助一些扩展，可以快速搭建一个高效的前端开发环境。">
+<meta name="keywords" content="IDE">
+<meta property="og:type" content="article">
+<meta property="og:title" content="VS-Code-搭建高效前端开发环境">
+<meta property="og:url" content="http://yoursite.com/2017/01/06/vscode-setup/index.html">
+<meta property="og:site_name" content="笑极">
+<meta property="og:description" content="目前在前端开发中主要是使用VS Code。VS Code是来自微软的编辑器，基于Github的Electron开发，非常简洁快速，内置Debug，Github GUI以及终端功能，十分强大。现在支持的扩展和主题已经很多，借助一些扩展，可以快速搭建一个高效的前端开发环境。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-08-28T07:10:06.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="VS-Code-搭建高效前端开发环境">
+<meta name="twitter:description" content="目前在前端开发中主要是使用VS Code。VS Code是来自微软的编辑器，基于Github的Electron开发，非常简洁快速，内置Debug，Github GUI以及终端功能，十分强大。现在支持的扩展和主题已经很多，借助一些扩展，可以快速搭建一个高效的前端开发环境。">
+  
+  <link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/9.2.0/styles/github.min.css">
+  <script src="//cdn.bootcss.com/highlight.js/9.2.0/highlight.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightBlock(block);
+      });
+    });
+  </script>
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+</html>
+<body style="
+
+
+  background-color: #eff0f6
+
+">
+  <div id="container">
+    <nav id="nav">
+  <header class="header">
+    <a href="/" class="title">Jerry</a>
+    <p class="subTitle">
+        Focus on Frontend
+    </p>
+  </header>
+  <div class="ctnWrap">
+    <div class="icons">
+      
+        
+          
+            <a href="https://github.com/xuxji" target="_blank" class="nav-icn iconfont icon-github"></a>
+          
+        
+          
+            <a href="https://www.yuque.com/xiaoji" target="_blank" class="nav-icn iconfont icon-yuque"></a>
+          
+        
+          
+            <a href="/Guitar" target="_blank" class="nav-icn iconfont icon-guitar"></a>
+          
+        
+          
+            <a href="/Basketball" target="_blank" class="nav-icn iconfont icon-basketball"></a>
+          
+        
+      
+    </div>
+    <div class="menu">
+      
+        
+            <a href="/" class="nav-menu ">HOME</a>
+          
+        
+            <a href="/archives" class="nav-menu ">ARCHIVE</a>
+          
+        
+            <a href="/about" class="nav-menu ">ABOUT</a>
+          
+        
+      
+    </div>
+  </div>
+</nav>
+    <div id="main"><section class="article">
+  <h2 class="title">VS-Code-搭建高效前端开发环境</h2>
+  <p class="sub">1月 6, 2017</p>
+  <article class="content">
+    <p>目前在前端开发中主要是使用VS Code。VS Code是来自微软的编辑器，基于Github的Electron开发，非常简洁快速，内置Debug，Github GUI以及终端功能，十分强大。现在支持的扩展和主题已经很多，借助一些扩展，可以快速搭建一个高效的前端开发环境。下面是介绍一下我在平时工作和个人开发中用到的一些非常不错的扩展和主题：</p>
+<h2 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h2><h3 id="ESLint"><a href="#ESLint" class="headerlink" title="ESLint"></a>ESLint</h3><p>Vscode ESLint 扩展，需要全局安装eslint</p>
+<h3 id="JS-CSS-HTML-Formatter"><a href="#JS-CSS-HTML-Formatter" class="headerlink" title="JS-CSS-HTML Formatter"></a>JS-CSS-HTML Formatter</h3><p>JS CSS HTML 格式化</p>
+<h3 id="VSCode-Icons"><a href="#VSCode-Icons" class="headerlink" title="VSCode Icons"></a>VSCode Icons</h3><p>给VSCode的文件夹和文件加上Icon，个人非常喜欢的一个扩展</p>
+<h3 id="Color-Picker"><a href="#Color-Picker" class="headerlink" title="Color Picker"></a>Color Picker</h3><p>非常方便的一个颜色选择器扩展</p>
+<h3 id="Git-History"><a href="#Git-History" class="headerlink" title="Git History"></a>Git History</h3><p>输入相应的快捷键就可以非常方便地看到代码文件的git历史修改记录和版本信息，界面十分简洁美观</p>
+<h3 id="npm-Intellisense"><a href="#npm-Intellisense" class="headerlink" title="npm Intellisense"></a>npm Intellisense</h3><p>npm包引入的自动完成功能</p>
+<h3 id="Path-Intellisense"><a href="#Path-Intellisense" class="headerlink" title="Path Intellisense"></a>Path Intellisense</h3><p>文件路径的自动完成扩展</p>
+<h3 id="Rest-Client"><a href="#Rest-Client" class="headerlink" title="Rest Client"></a>Rest Client</h3><p>非常强大的一个rest api测试客户端，在前后端交互联调时极其方便，虽然postman更加强大，但Rest Client更加轻便，只需要在当前工作区的文件中使用快捷键，不用切换界面</p>
+<h3 id="yo"><a href="#yo" class="headerlink" title="yo"></a>yo</h3><p>Yeoman脚手架扩展</p>
+<h3 id="Bookmarks"><a href="#Bookmarks" class="headerlink" title="Bookmarks"></a>Bookmarks</h3><p>编辑器行书签，支持跳转</p>
+<h3 id="Debugger-for-Chrome"><a href="#Debugger-for-Chrome" class="headerlink" title="Debugger for Chrome"></a>Debugger for Chrome</h3><p>Chrome Debug工具集成</p>
+<h3 id="Can-I-Use"><a href="#Can-I-Use" class="headerlink" title="Can I Use"></a>Can I Use</h3><p>基于<a href="http://caniuse.com/" target="_blank" rel="noopener">Can I Use</a> 网站的一个扩展，用来检验HTML5,CSS3,SVG以及JS新特性的浏览器支持程度。非常方便。</p>
+<blockquote>
+<p><a href="https://marketplace.visualstudio.com/search?target=VSCode&amp;sortBy=Downloads" target="_blank" rel="noopener">热门插件</a></p>
+</blockquote>
+<h2 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h2><h3 id="Material-theme"><a href="#Material-theme" class="headerlink" title="Material-theme"></a>Material-theme</h3><p>一个非常不错的Material-design主题</p>
+<h2 id="相关文章"><a href="#相关文章" class="headerlink" title="相关文章"></a>相关文章</h2><ul>
+<li><a href="http://www.html-js.com/article/IMWebshequ-VS-Code-chushangshou%203805" target="_blank" rel="noopener">VS Code 初上手</a></li>
+</ul>
+
+  </article>
+  <footer class="f-cf">
+    
+    
+      <a href="/2017/01/03/node-collection/" class="link f-fr">Nodejs资源整理⟶</a>
+    
+  </footer>
+</section></div>
+    <footer id="footer" class="f-cf">
+  xuxji.123@163.com
+  
+    
+      
+        · <a href="https://github.com/xuxji" target="_blank" class="nav-icn">GitHub</a>
+      
+    
+      
+        · <a href="https://www.yuque.com/xiaoji" target="_blank" class="nav-icn">Yuque</a>
+      
+    
+      
+        · <a href="/Guitar" target="_blank" class="nav-icn">Guitar</a>
+      
+    
+      
+        · <a href="/Basketball" target="_blank" class="nav-icn">Basketball</a>
+      
+    
+  
+  <span class="copyright">Theme based on @Clover Tuan</span>
+</footer>
+  </div>
+</body>
+</html>
